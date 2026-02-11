@@ -1,0 +1,18 @@
+p{
+    font-size: 30px;
+    /* font-weight: bold; */
+    /* font-weight: normal; */
+    /* font-weight: 600; */
+    /* font-weight: 900; */
+    /* font-style:oblique; */
+    /* font-style: italic; */
+    /* font-style: normal; */
+    /* font-family: serif; */
+    /* font-family: sans-serif; */
+    /* font-family: cursive; */
+    /* font-family: monospace; */
+      /* font-family: fantasy; */
+      font-family: "Playwrite NZ Basic Guides", cursive;
+  font-weight: 900;
+  font-style: normal;
+}

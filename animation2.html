@@ -11,9 +11,11 @@
             background-color: rgb(198, 140, 64);
             animation-name:sivaram;
             animation-duration: 5s;
+            animation-delay:2s ;
+            animation-iteration-count: 5;
         }
         @keyframes sivaram{
-            from{
+            /* from{
                 width: 200px;
                 height: 200px;
                 background-color: violet;
@@ -22,7 +24,21 @@
             to{
                 height: 300px;
                 background-color: black;
-            }
+            } */
+             0%{
+                width: 200px;
+                height: 200px;
+                background-color: violet;
+             }
+             50%{
+                border-radius: 50%;
+             }
+             100%{
+                width: 200px;
+                height: 200px;
+                background-color: rgb(96, 30, 195);
+                transform: translateX(400px);
+             }
         }
     </Style>
 </head>
